@@ -14,7 +14,7 @@
     },
     "test-api": {
       "component": "test-api",
-      "release-type": "node",
+      "release-type": "node"
     }
   },
   "plugins": [
