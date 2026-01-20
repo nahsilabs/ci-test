@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.137-backport.3](https://github.com/nahsilabs/ci-test/compare/test-api-v0.8.137-backport.2...test-api-v0.8.137-backport.3) (2026-01-20)
+
+
+### Miscellaneous Chores
+
+* **test-api:** Synchronize test versions
+
 ## [0.8.137-backport.2](https://github.com/nahsilabs/ci-test/compare/test-api-v0.8.137-backport.1...test-api-v0.8.137-backport.2) (2026-01-20)
 
 

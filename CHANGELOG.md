@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.137-backport.3](https://github.com/nahsilabs/ci-test/compare/test-v0.8.137-backport.2...test-v0.8.137-backport.3) (2026-01-20)
+
+
+### Bug Fixes
+
+* Fix ([bbe70e0](https://github.com/nahsilabs/ci-test/commit/bbe70e05a490c4572607941fb9c9e8b6f016b764))
+
 ## [0.8.137-backport.2](https://github.com/nahsilabs/ci-test/compare/test-v0.8.137-backport.1...test-v0.8.137-backport.2) (2026-01-20)
 
 
