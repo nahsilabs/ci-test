@@ -5,6 +5,7 @@
   "group-pull-request-title-pattern": "chore: backport release ${version}",
   "prerelease-type": "backport",
   "prerelease": true,
+  "versioning": "prerelease",
   "skip-github-release": true,
   "packages": {
     ".": {
