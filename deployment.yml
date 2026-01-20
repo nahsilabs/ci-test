@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test
+spec:
+    spec:
+      containers:
+        - name: test
+          image: nahsilabs/test:0.8.135 # x-release-please-version
