@@ -6,7 +6,6 @@
   "prerelease-type": "backport",
   "prerelease": true,
   "versioning": "prerelease",
-  "skip-github-release": true,
   "packages": {
     ".": {
       "component": "test",
