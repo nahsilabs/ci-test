@@ -4,8 +4,8 @@
   "bump-patch-for-minor-pre-major": true,
   "group-pull-request-title-pattern": "chore: backport release ${version}",
   "prerelease-type": "backport",
-    "prerelease": true,
-     "skip-github-release": true,
+  "prerelease": true,
+  "skip-github-release": true,
   "packages": {
     ".": {
       "component": "test",
