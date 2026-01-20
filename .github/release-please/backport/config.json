@@ -20,7 +20,7 @@
   "plugins": [
     {
       "type": "linked-versions",
-      "groupName": "test",
+      "groupname": "test",
       "components": ["test", "test-api"]
     }
   ]
