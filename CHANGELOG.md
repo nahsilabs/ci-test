@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.146](https://github.com/nahsilabs/ci-test/compare/test-v0.8.145...test-v0.8.146) (2026-01-22)
+
+
+### Bug Fixes
+
+* Ff ([3661b29](https://github.com/nahsilabs/ci-test/commit/3661b29352486c7c2a1d9695dc45c4ce1decf8d7))
+
 ## [0.8.145](https://github.com/nahsilabs/ci-test/compare/test-v0.8.144...test-v0.8.145) (2026-01-22)
 
 
