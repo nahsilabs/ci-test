@@ -1,0 +1,37 @@
+name: Auto cherry-pick labeled PRs to rc
+
+on:
+  # Run once a day
+  schedule:
+    - cron: "0 3 * * *"
+
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Months to look back"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  cherri-to-rc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Cherry-pick labeled PRs and open PR to rc
+        uses: 0xr3ngar/cherri@v1.6.0
+        with:
+          target: rc
+          label: to-release
+          source-branch: main
+          create-pr: rc
+          since: ${{ github.event.inputs.since || '1' }}
+          fail-on-conflict: "true"
