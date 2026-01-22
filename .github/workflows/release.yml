@@ -3,10 +3,8 @@ name: "release-please"
 on:
   push:
     branches:
-      - "main"
-      - "backport/*"
-      - "hotfix/*"
-      - "prerelease/*"
+      - "rc"
+      - "maintenance/*"
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
