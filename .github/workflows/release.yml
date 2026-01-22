@@ -25,10 +25,10 @@ jobs:
         uses: googleapis/release-please-action@v4
         with:
           target-branch: ${{ github.ref_name }}
-          config-file: ${{ github.ref_name == 'main'
+          config-file: ${{ github.ref_name == 'rc'
             && '.github/release-please/config.json'
             || '.github/release-please/backport/config.json' }}
-          manifest-file: ${{ github.ref_name == 'main'
+          manifest-file: ${{ github.ref_name == 'rc'
             && '.github/release-please/manifest.json'
             || '.github/release-please/backport/manifest.json' }}
 
@@ -37,3 +37,13 @@ jobs:
         env:
           RELEASE_PLEASE_OUTPUT: ${{ toJSON(steps.release.outputs) }}
         run: echo "${RELEASE_PLEASE_OUTPUT}" | jq
+
+  merge-to-main:
+    name: Create maintenance branch
+    needs:
+      - release-please
+    if: github.ref_name == 'rc' && needs.release-please.outputs.release-created
+    uses: ./.github/workflows/fast-forward.yml
+    with:
+      source: ${{ needs.release-please.outputs.tag-name }}
+      target: "main"
