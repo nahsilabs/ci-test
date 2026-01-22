@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.139](https://github.com/nahsilabs/ci-test/compare/test-v0.8.138...test-v0.8.139) (2026-01-22)
+
+
+### Bug Fixes
+
+* Feature-to-version-0.8.139 ([#9](https://github.com/nahsilabs/ci-test/issues/9)) ([71bfcbd](https://github.com/nahsilabs/ci-test/commit/71bfcbde1f80842fbb4399524611024ff3d59d8c))
+
 ## [0.8.138](https://github.com/nahsilabs/ci-test/compare/test-v0.8.137...test-v0.8.138) (2026-01-22)
 
 
