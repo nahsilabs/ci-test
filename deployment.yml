@@ -5,5 +5,5 @@ metadata:
 spec:
     spec:
       containers:
-        - name: test
+        - name: test-test
           image: nahsilabs/test:0.8.138 # x-release-please-version
