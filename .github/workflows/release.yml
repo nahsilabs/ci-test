@@ -49,16 +49,11 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Fast-forward main to release tag
+      - name: Sync release commit back to main
         run: |
-          git fetch --no-tags origin "refs/tags/${{ needs.release-please.outputs.tag-name }}"
-
-          if git merge-base --is-ancestor HEAD FETCH_HEAD; then
-            echo "Fast-forward merge possible."
-          else
-            echo "Error: main has commits not in the release tag; cannot fast-forward."
-            exit 1
-          fi
-
-          git merge --ff-only FETCH_HEAD
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch --tags origin "${{ needs.release-please.outputs.tag-name }}"
+          git cherry-pick -x --no-commit "${{ needs.release-please.outputs.tag-name }}"
+          git commit -m "chore: sync release ${{ needs.release-please.outputs.version }} from rc"
           git push origin HEAD:main
