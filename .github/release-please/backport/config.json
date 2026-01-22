@@ -2,10 +2,10 @@
   "include-component-in-tag": true,
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
-  "group-pull-request-title-pattern": "chore: release ${version}",
-  "prerelease-type": "prerelease",
+  "group-pull-request-title-pattern": "chore: backport release ${version}",
+  "prerelease-type": "backport",
   "prerelease": true,
-  "skip-github-release": true,
+  "versioning": "prerelease",
   "packages": {
     ".": {
       "component": "test",
@@ -14,7 +14,7 @@
     },
     "test-api": {
       "component": "test-api",
-      "release-type": "node",
+      "release-type": "node"
     }
   },
   "plugins": [
