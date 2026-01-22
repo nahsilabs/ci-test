@@ -38,8 +38,18 @@ jobs:
           RELEASE_PLEASE_OUTPUT: ${{ toJSON(steps.release.outputs) }}
         run: echo "${RELEASE_PLEASE_OUTPUT}" | jq
 
+  sync-release:
+    needs: release-please
+    if: needs.release-please.outputs.release-created
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.release-please.outputs.tag-name }}
+          fetch-depth: 0
+
       - name: Sync release back to main
-        if: steps.release.outputs.release_created
         run: |
-          git cherry-pick -x "${{ steps.release.outputs['tag_name'] }}"
+          git cherry-pick -x "${{ needs.release-please.outputs.tag-name }}"
           git push origin HEAD:main
