@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.139-backport](https://github.com/nahsilabs/ci-test/compare/test-v0.8.138...test-v0.8.139-backport) (2026-01-22)
+
+
+### Bug Fixes
+
+* hotfix-to-version-0.8.138 ([9851893](https://github.com/nahsilabs/ci-test/commit/9851893a19333b3afd177d081730e48810dd9580))
+* Use one manifest ([2f48f7b](https://github.com/nahsilabs/ci-test/commit/2f48f7b22245ec6fb5a182bcec7dd712168b5517))
+
 ## [0.8.138](https://github.com/nahsilabs/ci-test/compare/test-v0.8.137...test-v0.8.138) (2026-01-22)
 
 
