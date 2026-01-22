@@ -2,8 +2,8 @@
   "include-component-in-tag": true,
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
-  "group-pull-request-title-pattern": "chore: backport release ${version}",
-  "prerelease-type": "backport",
+  "group-pull-request-title-pattern": "chore: release ${version}",
+  "prerelease-type": "prerelease",
   "prerelease": true,
   "skip-github-release": true,
   "packages": {

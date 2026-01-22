@@ -5,6 +5,8 @@ on:
     branches:
       - "main"
       - "backport/*"
+      - "hotfix/*"
+      - "prerelease/*"
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
