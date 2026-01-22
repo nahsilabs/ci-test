@@ -21,7 +21,7 @@ jobs:
       - name: Checkout target branch
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.env }}
+          ref: ${{ inputs.source }}
           token: ${{ secrets.token }}
           fetch-depth: 0
 
