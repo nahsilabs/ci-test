@@ -26,6 +26,7 @@ jobs:
         id: release
         uses: googleapis/release-please-action@v4
         with:
+          target-branch: ${{ github.ref_name }}
           config-file: ${{ github.ref_name == 'main'
             && '.github/release-please/config.json'
             || '.github/release-please/backport/config.json' }}
