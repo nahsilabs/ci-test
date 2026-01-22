@@ -29,6 +29,8 @@ jobs:
       - name: Cherry-pick labeled PRs and open PR to rc
         uses: 0xr3ngar/cherri@v1.6.0
         with:
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
           target: rc
           label: to-release
           source-branch: main
