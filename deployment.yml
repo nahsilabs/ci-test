@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test-test-test-test-test-test-test
+  name: test-test-test-test-test-test
 spec:
     spec:
       containers:
         - name: test
-          image: nahsilabs/test:0.8.139 # x-release-please-version
+          image: nahsilabs/test:0.8.142 # x-release-please-version

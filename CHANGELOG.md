@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.8.142](https://github.com/nahsilabs/ci-test/compare/test-v0.8.141...test-v0.8.142) (2026-01-22)
+
+
+### Bug Fixes
+
+* Feature feature feature ([cb0f6cb](https://github.com/nahsilabs/ci-test/commit/cb0f6cbacff6edee1ec1aa6afbb90f2a9ff89746))
+* Fix release ([9f8480e](https://github.com/nahsilabs/ci-test/commit/9f8480e50b922c6d09c784de9d9ef4ca678798c9))
+
+## [0.8.141](https://github.com/nahsilabs/ci-test/compare/test-v0.8.140...test-v0.8.141) (2026-01-22)
+
+
+### Bug Fixes
+
+* Fix release ([0957354](https://github.com/nahsilabs/ci-test/commit/0957354f6a168732519cb73e09c10503e08d0325))
+
+## [0.8.140](https://github.com/nahsilabs/ci-test/compare/test-v0.8.139...test-v0.8.140) (2026-01-22)
+
+
+### Bug Fixes
+
+* rc and maintenance ([aef794e](https://github.com/nahsilabs/ci-test/commit/aef794e47fa06f5191715fa57df59453a147f078))
+* Some feature ([f4c2770](https://github.com/nahsilabs/ci-test/commit/f4c2770626cc281ffa4c87b6cba07322ac5a48d7))
+* Test fast forward ([844f862](https://github.com/nahsilabs/ci-test/commit/844f862e8845a90b2f2489559cfa1d0f33bf7237))
+* Trigger release ([0dd0e02](https://github.com/nahsilabs/ci-test/commit/0dd0e02f29fa9d4c86c124904022e42ba7b5e29e))
+
 ## [0.8.139](https://github.com/nahsilabs/ci-test/compare/test-v0.8.138...test-v0.8.139) (2026-01-22)
 
 
