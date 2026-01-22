@@ -47,4 +47,5 @@ jobs:
     with:
       source: ${{ needs.release-please.outputs.tag-name }}
       target: "main"
+    secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
