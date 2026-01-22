@@ -39,7 +39,7 @@ jobs:
         run: echo "${RELEASE_PLEASE_OUTPUT}" | jq
 
   merge-to-main:
-    name: Create maintenance branch
+    name: Merge release back to main branch
     needs:
       - release-please
     if: github.ref_name == 'rc' && needs.release-please.outputs.release-created
@@ -47,3 +47,4 @@ jobs:
     with:
       source: ${{ needs.release-please.outputs.tag-name }}
       target: "main"
+      token: ${{ secrets.GITHUB_TOKEN }}
