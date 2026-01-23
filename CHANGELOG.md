@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.8.147](https://github.com/nahsilabs/ci-test/compare/test-v0.8.146...test-v0.8.147) (2026-01-23)
+
+
+### Bug Fixes
+
+* Feature 3 ([#23](https://github.com/nahsilabs/ci-test/issues/23)) ([7c0c363](https://github.com/nahsilabs/ci-test/commit/7c0c36369390daef9fbf3ede9ca1a3465d24ee54))
+* Feature one ([#21](https://github.com/nahsilabs/ci-test/issues/21)) ([651e7f8](https://github.com/nahsilabs/ci-test/commit/651e7f8c8091e1b18fc07b1599a25586f21b5a12))
+* Use cherry picking ([7689b8e](https://github.com/nahsilabs/ci-test/commit/7689b8e3df7e73cc31ba3c80c06f48e3e5a1036d))
+
 ## [0.8.146](https://github.com/nahsilabs/ci-test/compare/test-v0.8.145...test-v0.8.146) (2026-01-22)
 
 
