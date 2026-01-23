@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.148](https://github.com/nahsilabs/ci-test/compare/test-v0.8.147...test-v0.8.148) (2026-01-23)
+
+
+### Bug Fixes
+
+* Feature two ([#22](https://github.com/nahsilabs/ci-test/issues/22)) ([0e52d35](https://github.com/nahsilabs/ci-test/commit/0e52d351ba295dcfd4156c937a1e6a5ad26d0aa6))
+
 ## [0.8.147](https://github.com/nahsilabs/ci-test/compare/test-v0.8.146...test-v0.8.147) (2026-01-23)
 
 
