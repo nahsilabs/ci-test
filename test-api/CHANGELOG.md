@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.149](https://github.com/nahsilabs/ci-test/compare/test-v0.8.148...test-api-v0.8.149) (2026-01-27)
+
+
+### Miscellaneous Chores
+
+* **test-api:** Synchronize test versions
+
 ## [0.8.148](https://github.com/nahsilabs/ci-test/compare/test-v0.8.147...test-api-v0.8.148) (2026-01-23)
 
 
